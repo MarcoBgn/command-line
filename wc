@@ -1,0 +1,9 @@
+The wc command will display the count of -lines -words -characters or bytes of a file. 
+
+  Syn: $ wc test.txt    
+  
+Used after a pipeline can be used, for example, to count the number of lines of a specific output. 
+
+  Syn: $ find ~ -name "*.txt" -print | wc -l 
+  
+Will output the number of .txt files in the HOME directory. 
