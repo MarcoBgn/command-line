@@ -1,0 +1,13 @@
+The mv command is mainly used to move files and directory from the command line. 
+
+  Syn: $ mv test.txt new/dir/
+  
+It can also be useful to rename a file, when no new destination is specified: 
+  
+  Syn: $ mv test.txt test_newname.txt
+  
+Useful options are: 
+
+  -v - returns the action 
+  -i - Asks for confirmation before overwriting a file
+  
