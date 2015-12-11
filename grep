@@ -1,0 +1,8 @@
+The grep command is commonly used to search regular expressions inside files, or after a pipeline to chain outputs. 
+
+  Syn: $ grep cafe test.txt  - will look for a line inside the file test.txt with the word "cafe" in it. 
+  
+  Syn: $ env | grep ^T     - Will print a list of Environment variables that start with a capital T. 
+  
+A similar command is egrep, and it is used with ERE's (Extended Regular Expressions).
+
